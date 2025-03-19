@@ -1,0 +1,26 @@
+/* Custom styles for the CodeMirror editor */
+.cm-editor {
+  height: 100%;
+  min-height: 300px;
+  border-radius: 0.375rem;
+  overflow: hidden;
+}
+
+.cm-scroller {
+  font-family: monospace;
+  line-height: 1.5;
+}
+
+.cm-gutters {
+  background-color: #f5f5f5;
+  border-right: 1px solid #ddd;
+  padding: 0 3px;
+}
+
+.cm-lineNumbers {
+  color: #999;
+}
+
+.cm-content {
+  padding: 10px;
+}
