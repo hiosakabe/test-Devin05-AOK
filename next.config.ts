@@ -1,7 +1,9 @@
 import type { NextConfig } from "next";
 
+/** @type {import('next').NextConfig} */
 const nextConfig: NextConfig = {
-  /* config options here */
+  // Configuration to support src directory structure
+  distDir: 'dist',
 };
 
 export default nextConfig;
